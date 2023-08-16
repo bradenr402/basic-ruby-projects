@@ -15,10 +15,3 @@ def caesar_cipher(string, shift)
   end
   return shifted_string.join('')
 end
-
-puts "What would you like to apply the Caesar cipher to?"
-input_string = gets.chomp
-puts "How many places would you like to shift by?"
-input_shift = gets.chomp.to_i
-
-puts caesar_cipher(input_string, input_shift)
